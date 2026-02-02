@@ -8,9 +8,9 @@ const Articles = () => {
   return (
     <div className="py-12">
       <h1 className="text-center text-4xl opacity-80 mb-12">Latest Articles</h1>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 md:gap-6 md:grid-cols-2 lg:gap-4 lg:grid-cols-4">
         <div className="flex flex-col">
-          <div className="w-full relative aspect-[4/3]">
+          <div className="w-full relative aspect-[4/3] md:aspect-[2/1]">
             <Image
               src={money}
               alt="money"
@@ -38,7 +38,7 @@ const Articles = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="relative w-full aspect-[4/3]">
+          <div className="relative w-full aspect-[4/3] md:aspect-[2/1]">
             <Image
               src={restaurant}
               alt="restaurant"
@@ -67,7 +67,7 @@ const Articles = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="relative w-full aspect-[4/3]">
+          <div className="relative w-full aspect-[4/3] md:aspect-[2/1]">
             <Image
               src={plane}
               alt="plane"
@@ -96,7 +96,7 @@ const Articles = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="relative w-full aspect-[4/3]">
+          <div className="relative w-full aspect-[4/3] md:aspect-[2/1]">
             <Image
               src={confetti}
               alt="confetti"
