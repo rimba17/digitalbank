@@ -4,6 +4,12 @@ This is a solution for the **digitalBank landing page challenge** from [Frontend
 
 ---
 
+## 🔗 Links
+
+- **Live Site URL:** (digitalbank-one.vercel.app)
+
+---
+
 ## 🚀 Built With
 
 - Nextjs 16/app route
@@ -13,13 +19,16 @@ This is a solution for the **digitalBank landing page challenge** from [Frontend
 
 ---
 
-## 📦 Installation (Optional)
+## 📦 How to Clone and Run Locally
 
-If this project uses Tailwind or a bundler, include the steps to run it locally.
-
-Example for Tailwind:
+Follow the steps below if you want to run this project on your local machine:
 
 ```bash
+# 1. Clone the repository
+
+# 2. Install dependencies
 npm install
+
+# 3. Run the development server
 npm run dev
 ```

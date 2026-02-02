@@ -10,6 +10,9 @@ const publicSans = Public_Sans({
 export const metadata = {
   title: "Digital Bank",
   description: "Digital Bank",
+  icons: {
+    icon: "/assets/images/favicon-32x32.png",
+  },
 };
 
 export default function RootLayout({ children }) {
