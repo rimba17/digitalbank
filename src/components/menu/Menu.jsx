@@ -3,7 +3,7 @@ import Link from "next/link";
 const Menu = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
     <ul
-      className={`absolute top-15 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 bg-neutral-gray-50 w-[90%] rounded-md overflow-hidden transition-all duration-300 
+      className={`absolute top-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 bg-neutral-gray-50 w-[90%] rounded-b-md overflow-hidden transition-all duration-300 
         ${isMenuOpen ? "max-h-96 py-4" : "max-h-0 py-0"}
     `}
     >
