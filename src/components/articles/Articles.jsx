@@ -15,7 +15,10 @@ const Articles = () => {
               src={money}
               alt="money"
               fill
-              sizes="100vw"
+              sizes="(max-width: 767px) 100vw,
+                    (max-width: 1023px) 50vw,
+                    (max-width: 1439px) 33vw,
+                    360px"
               className="rounded-t-md object-cover"
             />
           </div>
@@ -43,7 +46,10 @@ const Articles = () => {
               src={restaurant}
               alt="restaurant"
               fill
-              sizes="100vw"
+              sizes="(max-width: 767px) 100vw,
+                    (max-width: 1023px) 50vw,
+                    (max-width: 1439px) 33vw,
+                    360px"
               className="object-cover rounded-t-md"
             />
           </div>
@@ -72,7 +78,10 @@ const Articles = () => {
               src={plane}
               alt="plane"
               fill
-              sizes="100vw"
+              sizes="(max-width: 767px) 100vw,
+                    (max-width: 1023px) 50vw,
+                    (max-width: 1439px) 33vw,
+                    360px"
               className="object-cover rounded-t-md"
             />
           </div>
@@ -101,7 +110,10 @@ const Articles = () => {
               src={confetti}
               alt="confetti"
               fill
-              sizes="100vw"
+              sizes="(max-width: 767px) 100vw,
+                    (max-width: 1023px) 50vw,
+                    (max-width: 1439px) 33vw,
+                    360px"
               className="object-cover rounded-t-md"
             />
           </div>
